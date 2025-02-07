@@ -56,7 +56,7 @@ pip install pandas numpy scikit-learn joblib shap xgboost streamlit matplotlib s
 python3 predict_mental_health.py --phq 12 --gad 8 --age 25 --gender 1
 ```
 
-### Running the Model
+### Running the Model (create a notebook)
 1. Load the trained model:
    ```python
    import joblib
@@ -83,6 +83,12 @@ streamlit run mental_health_ui.py
 1. Enter PHQ-9 and GAD-7 scores.
 2. Select age and gender.
 3. Click **Predict** to get diagnosis, severity index, and recommendations.
+
+## Running Open-ai llM Instructions (Api key required)
+```sh
+streamlit run mental_health_ui_llm.py
+```
+if Api key is available run this script
 
 ### Example Output
 ```
