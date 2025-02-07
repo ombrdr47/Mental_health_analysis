@@ -76,7 +76,7 @@ python3 predict_mental_health.py --phq 12 --gad 8 --age 25 --gender 1
 
 ### Running the Streamlit App
 ```sh
-streamlit run app.py
+streamlit run mental_health_ui.py
 ```
 
 ### Using the UI
